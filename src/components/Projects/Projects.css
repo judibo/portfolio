@@ -1,0 +1,61 @@
+/* #projects {
+    padding-top: 50px;
+}
+
+.FlexContainer {
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+}
+
+.project {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: inline-block;
+    text-align: left;
+}
+
+.button a:hover, .single-btn:hover  {
+    background-color: #f2f2f2;
+}
+
+.btn {
+    border: 1px #cdd1d0 solid;
+    background-color: #e4efec;
+    padding: 10px;
+}
+
+.single-btn {
+    color:#749990;
+    width: 30%;
+    text-align: center;
+}
+
+img {
+    width: 90%;
+}
+
+@media screen and (min-width: 540px) {
+    .FlexContainer {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        flex-flow: row wrap;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin: auto;
+        padding: 20px;
+    }
+
+    .project {
+        width: 45%;
+        display: inline-block;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .project {
+        width: 22%;
+    }    
+} */

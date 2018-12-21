@@ -1,0 +1,22 @@
+.summary {
+    margin: -240px 0 0 40px;
+}
+
+.summary h1 {
+    font-size: 80px;
+    color: #749990;
+}
+
+.summary img {
+    box-shadow: 3px 3px 15px 0px rgba(199,199,199,1);
+    width: 70%;
+}
+
+.summary-img {
+    text-align: center;
+}
+
+#background {
+    background-color: #e4efec;
+    height: 300px;
+}

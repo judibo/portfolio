@@ -1,0 +1,15 @@
+#skills {
+    background-color: #e4efec;
+    padding: 30px;
+}
+  
+.skills-icons {
+    width: 50px;
+    display: inline-block;
+    padding: 20px;
+}
+
+#skills h2  {
+    text-align: center;
+    color: #749990;
+}
