@@ -61,10 +61,6 @@ const Projects = ({projects}) => (
             <p>A special guide to make it easy to find the type of brush the user needed for her make-up on Sephora website.</p>
             <p><strong>Technologies used:</strong> Photoshop, HTML and CSS.</p>
         </div>
-
-
-
-
     </div>
 </div>
 )

@@ -7,6 +7,7 @@ import Contact from './components/Contact/Contact';
 import Experience from './components/Experience/Experience';
 import NavBar from './components/NavBar/NavBar';
 import Skills from './components/Skills/Skills';
+import About from './components/About/About';
 
 class App extends Component {
   constructor(props) {
@@ -27,7 +28,6 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">JULIA DIBO</header>
         <Router>
           <div className="App">
             <NavBar />
@@ -41,6 +41,9 @@ class App extends Component {
             }/>
             <Route exact path='/skills' render={(props) => 
               <Skills selected={this.state.selected} />
+            }/>
+            <Route exact path='/about' render={(props) => 
+              <About selected={this.state.selected} />
             }/>
             <Route exact path='/contact' render={(props) => 
               <Contact selected={this.state.selected} />
